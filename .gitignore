@@ -24,3 +24,8 @@ blitz_challenge-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+.elixir-tools
+.elixir_ls
+.env
+.vscode
