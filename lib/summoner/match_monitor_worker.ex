@@ -47,6 +47,7 @@ defmodule BlitzChallenge.Summoner.MatchMonitorWorker do
 
   @impl GenServer
   def handle_info(:check_new_matches, state) do
+    # TODO: Should move the logic out into a client module to more easily test
     updated_state =
       case match_module().check_new_matches(state.puuid, state.region, state.recent_match_ids) do
         {:ok, new_match_ids} ->

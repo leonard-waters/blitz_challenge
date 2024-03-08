@@ -10,3 +10,4 @@
   - started on this with a more colorful console input, but it was a time suck
 - a handful of TODOs listed that I might take on later
 - needs considerably better/cleaner error handling
+- needs specs as well, but I didnt get around to adding dialyzer yet
